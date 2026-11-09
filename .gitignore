@@ -1,0 +1,39 @@
+# EDA Simulator and Synthesis Output Artifacts
+work/
+transcript
+*.wlf
+*.vcd
+*.fsdb
+*.vpd
+*.ucdb
+
+# Cadence Xcelium / Incisive
+INCA_libs/
+xcelium.d/
+.simvision/
+waves.shm/
+*.history
+*.log
+*.key
+
+# Synopsys VCS
+csrc/
+simv*
+ucli.key
+vc_hdrs.h
+urgReport/
+urglog/
+
+# Mentor / Siemens Questa / ModelSim
+covhtmlreport/
+cov_work/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# OS & Editor Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+
